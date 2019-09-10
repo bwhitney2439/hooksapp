@@ -10,7 +10,7 @@ const NewSongForm = ({ addSong }) => {
   };
   return (
     <form onSubmit={handleSubmit}>
-      <label>Song Name:</label>
+      <label>Song Name: </label>
       <input
         type="text"
         value={title}
